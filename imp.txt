@@ -31,7 +31,7 @@ manage.py startapp sampleapp
 2.got to demoproject
 3.open settings.py
       installed apps
-           'sample apps'
+           'sampleapp',
  4.url.py
       from sampleapp import views
       
