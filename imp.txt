@@ -25,3 +25,19 @@ go to browser enter     localhost:8000/admin
  cmd
 
 manage.py startapp sampleapp
+
+.................................
+1.open sublime text editor
+2.got to demoproject
+3.open settings.py
+      installed apps
+           'sample apps'
+ 4.url.py
+      from sampleapp import views
+      
+       path('h/',views.sample)
+5.views 
+     from dgango.http import HttpResponse
+     
+     def sample(request):
+          return HttpRequest("hello world")
